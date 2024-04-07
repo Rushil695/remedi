@@ -1,0 +1,6 @@
+0 Skin
+1 Close Mouth
+2 Ear
+3 Eye
+4 Open Mouth
+5 None
