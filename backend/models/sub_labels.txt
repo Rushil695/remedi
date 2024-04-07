@@ -1,0 +1,8 @@
+0 Vascular Lesion
+1 Ringworm
+2 Melanoma
+3 Melanocytic Nevus
+4 Dermatofibroma
+5 Keratosis
+6 Dermatitis
+7 Scab/Burn
