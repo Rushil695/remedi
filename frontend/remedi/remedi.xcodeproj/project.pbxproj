@@ -7,61 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEACB1642BC15FCB00BF83BA /* remediApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB1632BC15FCB00BF83BA /* remediApp.swift */; };
-		CEACB1662BC15FCB00BF83BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB1652BC15FCB00BF83BA /* ContentView.swift */; };
-		CEACB1682BC15FCD00BF83BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEACB1672BC15FCD00BF83BA /* Assets.xcassets */; };
-		CEACB16B2BC15FCD00BF83BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEACB16A2BC15FCD00BF83BA /* Preview Assets.xcassets */; };
-		CEACB1752BC15FCD00BF83BA /* remediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB1742BC15FCD00BF83BA /* remediTests.swift */; };
-		CEACB17F2BC15FCD00BF83BA /* remediUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB17E2BC15FCD00BF83BA /* remediUITests.swift */; };
-		CEACB1812BC15FCD00BF83BA /* remediUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEACB1802BC15FCD00BF83BA /* remediUITestsLaunchTests.swift */; };
+		CEBEA8A72BC22DED0089679C /* remediApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8A62BC22DED0089679C /* remediApp.swift */; };
+		CEBEA8A92BC22DED0089679C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8A82BC22DED0089679C /* ContentView.swift */; };
+		CEBEA8AD2BC22DEE0089679C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBEA8AC2BC22DEE0089679C /* Assets.xcassets */; };
+		CEBEA8B02BC22DEE0089679C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBEA8AF2BC22DEE0089679C /* Preview Assets.xcassets */; };
+		CEBEA8BA2BC22DEE0089679C /* remediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8B92BC22DEE0089679C /* remediTests.swift */; };
+		CEBEA8C42BC22DEE0089679C /* remediUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8C32BC22DEE0089679C /* remediUITests.swift */; };
+		CEBEA8C62BC22DEE0089679C /* remediUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8C52BC22DEE0089679C /* remediUITestsLaunchTests.swift */; };
+		CEBEA8D32BC22E5A0089679C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEBEA8D22BC22E5A0089679C /* GoogleService-Info.plist */; };
+		CEBEA8D82BC22ED90089679C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8D72BC22ED90089679C /* User.swift */; };
+		CEBEA8DA2BC22F090089679C /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8D92BC22F090089679C /* AudioController.swift */; };
+		CEBEA8DC2BC22F0F0089679C /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8DB2BC22F0F0089679C /* CameraController.swift */; };
+		CEBEA8DE2BC22F150089679C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8DD2BC22F150089679C /* ContentViewModel.swift */; };
+		CEBEA8E02BC22F1B0089679C /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8DF2BC22F1B0089679C /* LoginVM.swift */; };
+		CEBEA8E22BC22F200089679C /* RegisterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8E12BC22F200089679C /* RegisterVM.swift */; };
+		CEBEA8E42BC22F240089679C /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8E32BC22F240089679C /* MainVM.swift */; };
+		CEBEA8E62BC22F280089679C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8E52BC22F280089679C /* LoginView.swift */; };
+		CEBEA8E82BC22F2C0089679C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8E72BC22F2C0089679C /* ProfileView.swift */; };
+		CEBEA8EA2BC22F310089679C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8E92BC22F310089679C /* MainView.swift */; };
+		CEBEA8EC2BC22F350089679C /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8EB2BC22F350089679C /* ResultView.swift */; };
+		CEBEA8F02BC22FD30089679C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CEBEA8EF2BC22FD30089679C /* FirebaseAuth */; };
+		CEBEA8F22BC22FD80089679C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CEBEA8F12BC22FD80089679C /* FirebaseFirestore */; };
+		CEBEA8F42BC22FE00089679C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CEBEA8F32BC22FE00089679C /* FirebaseFirestoreSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CEACB1712BC15FCD00BF83BA /* PBXContainerItemProxy */ = {
+		CEBEA8B62BC22DEE0089679C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CEACB1582BC15FCB00BF83BA /* Project object */;
+			containerPortal = CEBEA89B2BC22DED0089679C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEACB15F2BC15FCB00BF83BA;
+			remoteGlobalIDString = CEBEA8A22BC22DED0089679C;
 			remoteInfo = remedi;
 		};
-		CEACB17B2BC15FCD00BF83BA /* PBXContainerItemProxy */ = {
+		CEBEA8C02BC22DEE0089679C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CEACB1582BC15FCB00BF83BA /* Project object */;
+			containerPortal = CEBEA89B2BC22DED0089679C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEACB15F2BC15FCB00BF83BA;
+			remoteGlobalIDString = CEBEA8A22BC22DED0089679C;
 			remoteInfo = remedi;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEACB1602BC15FCB00BF83BA /* remedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEACB1632BC15FCB00BF83BA /* remediApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remediApp.swift; sourceTree = "<group>"; };
-		CEACB1652BC15FCB00BF83BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CEACB1672BC15FCD00BF83BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CEACB16A2BC15FCD00BF83BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CEACB1702BC15FCD00BF83BA /* remediTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = remediTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEACB1742BC15FCD00BF83BA /* remediTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remediTests.swift; sourceTree = "<group>"; };
-		CEACB17A2BC15FCD00BF83BA /* remediUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = remediUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEACB17E2BC15FCD00BF83BA /* remediUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remediUITests.swift; sourceTree = "<group>"; };
-		CEACB1802BC15FCD00BF83BA /* remediUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remediUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEBEA8A32BC22DED0089679C /* remedi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remedi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBEA8A62BC22DED0089679C /* remediApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remediApp.swift; sourceTree = "<group>"; };
+		CEBEA8A82BC22DED0089679C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEBEA8AC2BC22DEE0089679C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBEA8AF2BC22DEE0089679C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEBEA8B52BC22DEE0089679C /* remediTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = remediTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBEA8B92BC22DEE0089679C /* remediTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remediTests.swift; sourceTree = "<group>"; };
+		CEBEA8BF2BC22DEE0089679C /* remediUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = remediUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBEA8C32BC22DEE0089679C /* remediUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remediUITests.swift; sourceTree = "<group>"; };
+		CEBEA8C52BC22DEE0089679C /* remediUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remediUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEBEA8D22BC22E5A0089679C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../remedi1/remedi/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEBEA8D72BC22ED90089679C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../../remedi1/remedi/Models/User.swift; sourceTree = "<group>"; };
+		CEBEA8D92BC22F090089679C /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioController.swift; path = ../../../../../remedi1/remedi/ViewModels/AudioController.swift; sourceTree = "<group>"; };
+		CEBEA8DB2BC22F0F0089679C /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraController.swift; path = ../../../../../remedi1/remedi/ViewModels/CameraController.swift; sourceTree = "<group>"; };
+		CEBEA8DD2BC22F150089679C /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentViewModel.swift; path = ../../../../../remedi1/remedi/ViewModels/ContentViewModel.swift; sourceTree = "<group>"; };
+		CEBEA8DF2BC22F1B0089679C /* LoginVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginVM.swift; path = ../../../../../remedi1/remedi/ViewModels/LoginVM.swift; sourceTree = "<group>"; };
+		CEBEA8E12BC22F200089679C /* RegisterVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterVM.swift; path = ../../../../../remedi1/remedi/ViewModels/RegisterVM.swift; sourceTree = "<group>"; };
+		CEBEA8E32BC22F240089679C /* MainVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainVM.swift; path = ../../../../../remedi1/remedi/ViewModels/MainVM.swift; sourceTree = "<group>"; };
+		CEBEA8E52BC22F280089679C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../../../remedi1/remedi/Views/LoginView.swift; sourceTree = "<group>"; };
+		CEBEA8E72BC22F2C0089679C /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = ../../../../../remedi1/remedi/Views/ProfileView.swift; sourceTree = "<group>"; };
+		CEBEA8E92BC22F310089679C /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ../../../../../remedi1/remedi/Views/MainView.swift; sourceTree = "<group>"; };
+		CEBEA8EB2BC22F350089679C /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultView.swift; path = ../../../../../remedi1/remedi/Views/ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CEACB15D2BC15FCB00BF83BA /* Frameworks */ = {
+		CEBEA8A02BC22DED0089679C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBEA8F02BC22FD30089679C /* FirebaseAuth in Frameworks */,
+				CEBEA8F22BC22FD80089679C /* FirebaseFirestore in Frameworks */,
+				CEBEA8F42BC22FE00089679C /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBEA8B22BC22DEE0089679C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEACB16D2BC15FCD00BF83BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEACB1772BC15FCD00BF83BA /* Frameworks */ = {
+		CEBEA8BC2BC22DEE0089679C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,142 +101,191 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEACB1572BC15FCB00BF83BA = {
+		CEBEA89A2BC22DED0089679C = {
 			isa = PBXGroup;
 			children = (
-				CEACB1622BC15FCB00BF83BA /* remedi */,
-				CEACB1732BC15FCD00BF83BA /* remediTests */,
-				CEACB17D2BC15FCD00BF83BA /* remediUITests */,
-				CEACB1612BC15FCB00BF83BA /* Products */,
+				CEBEA8A52BC22DED0089679C /* remedi */,
+				CEBEA8B82BC22DEE0089679C /* remediTests */,
+				CEBEA8C22BC22DEE0089679C /* remediUITests */,
+				CEBEA8A42BC22DED0089679C /* Products */,
+				CEBEA8EE2BC22FD30089679C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		CEACB1612BC15FCB00BF83BA /* Products */ = {
+		CEBEA8A42BC22DED0089679C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEACB1602BC15FCB00BF83BA /* remedi.app */,
-				CEACB1702BC15FCD00BF83BA /* remediTests.xctest */,
-				CEACB17A2BC15FCD00BF83BA /* remediUITests.xctest */,
+				CEBEA8A32BC22DED0089679C /* remedi.app */,
+				CEBEA8B52BC22DEE0089679C /* remediTests.xctest */,
+				CEBEA8BF2BC22DEE0089679C /* remediUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEACB1622BC15FCB00BF83BA /* remedi */ = {
+		CEBEA8A52BC22DED0089679C /* remedi */ = {
 			isa = PBXGroup;
 			children = (
-				CEACB1632BC15FCB00BF83BA /* remediApp.swift */,
-				CEACB1652BC15FCB00BF83BA /* ContentView.swift */,
-				CEACB1672BC15FCD00BF83BA /* Assets.xcassets */,
-				CEACB1692BC15FCD00BF83BA /* Preview Content */,
+				CEBEA8D22BC22E5A0089679C /* GoogleService-Info.plist */,
+				CEBEA8A62BC22DED0089679C /* remediApp.swift */,
+				CEBEA8D62BC22ECD0089679C /* Models */,
+				CEBEA8D52BC22EBF0089679C /* ViewModels */,
+				CEBEA8D42BC22EB80089679C /* Views */,
+				CEBEA8AC2BC22DEE0089679C /* Assets.xcassets */,
+				CEBEA8AE2BC22DEE0089679C /* Preview Content */,
 			);
 			path = remedi;
 			sourceTree = "<group>";
 		};
-		CEACB1692BC15FCD00BF83BA /* Preview Content */ = {
+		CEBEA8AE2BC22DEE0089679C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CEACB16A2BC15FCD00BF83BA /* Preview Assets.xcassets */,
+				CEBEA8AF2BC22DEE0089679C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CEACB1732BC15FCD00BF83BA /* remediTests */ = {
+		CEBEA8B82BC22DEE0089679C /* remediTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEACB1742BC15FCD00BF83BA /* remediTests.swift */,
+				CEBEA8B92BC22DEE0089679C /* remediTests.swift */,
 			);
 			path = remediTests;
 			sourceTree = "<group>";
 		};
-		CEACB17D2BC15FCD00BF83BA /* remediUITests */ = {
+		CEBEA8C22BC22DEE0089679C /* remediUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CEACB17E2BC15FCD00BF83BA /* remediUITests.swift */,
-				CEACB1802BC15FCD00BF83BA /* remediUITestsLaunchTests.swift */,
+				CEBEA8C32BC22DEE0089679C /* remediUITests.swift */,
+				CEBEA8C52BC22DEE0089679C /* remediUITestsLaunchTests.swift */,
 			);
 			path = remediUITests;
+			sourceTree = "<group>";
+		};
+		CEBEA8D42BC22EB80089679C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEBEA8A82BC22DED0089679C /* ContentView.swift */,
+				CEBEA8E52BC22F280089679C /* LoginView.swift */,
+				CEBEA8E72BC22F2C0089679C /* ProfileView.swift */,
+				CEBEA8E92BC22F310089679C /* MainView.swift */,
+				CEBEA8EB2BC22F350089679C /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEBEA8D52BC22EBF0089679C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CEBEA8D92BC22F090089679C /* AudioController.swift */,
+				CEBEA8DB2BC22F0F0089679C /* CameraController.swift */,
+				CEBEA8DD2BC22F150089679C /* ContentViewModel.swift */,
+				CEBEA8DF2BC22F1B0089679C /* LoginVM.swift */,
+				CEBEA8E12BC22F200089679C /* RegisterVM.swift */,
+				CEBEA8E32BC22F240089679C /* MainVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CEBEA8D62BC22ECD0089679C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEBEA8D72BC22ED90089679C /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEBEA8EE2BC22FD30089679C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEACB15F2BC15FCB00BF83BA /* remedi */ = {
+		CEBEA8A22BC22DED0089679C /* remedi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEACB1842BC15FCD00BF83BA /* Build configuration list for PBXNativeTarget "remedi" */;
+			buildConfigurationList = CEBEA8C92BC22DEE0089679C /* Build configuration list for PBXNativeTarget "remedi" */;
 			buildPhases = (
-				CEACB15C2BC15FCB00BF83BA /* Sources */,
-				CEACB15D2BC15FCB00BF83BA /* Frameworks */,
-				CEACB15E2BC15FCB00BF83BA /* Resources */,
+				CEBEA89F2BC22DED0089679C /* Sources */,
+				CEBEA8A02BC22DED0089679C /* Frameworks */,
+				CEBEA8A12BC22DED0089679C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = remedi;
+			packageProductDependencies = (
+				CEBEA8EF2BC22FD30089679C /* FirebaseAuth */,
+				CEBEA8F12BC22FD80089679C /* FirebaseFirestore */,
+				CEBEA8F32BC22FE00089679C /* FirebaseFirestoreSwift */,
+			);
 			productName = remedi;
-			productReference = CEACB1602BC15FCB00BF83BA /* remedi.app */;
+			productReference = CEBEA8A32BC22DED0089679C /* remedi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEACB16F2BC15FCD00BF83BA /* remediTests */ = {
+		CEBEA8B42BC22DEE0089679C /* remediTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEACB1872BC15FCD00BF83BA /* Build configuration list for PBXNativeTarget "remediTests" */;
+			buildConfigurationList = CEBEA8CC2BC22DEE0089679C /* Build configuration list for PBXNativeTarget "remediTests" */;
 			buildPhases = (
-				CEACB16C2BC15FCD00BF83BA /* Sources */,
-				CEACB16D2BC15FCD00BF83BA /* Frameworks */,
-				CEACB16E2BC15FCD00BF83BA /* Resources */,
+				CEBEA8B12BC22DEE0089679C /* Sources */,
+				CEBEA8B22BC22DEE0089679C /* Frameworks */,
+				CEBEA8B32BC22DEE0089679C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEACB1722BC15FCD00BF83BA /* PBXTargetDependency */,
+				CEBEA8B72BC22DEE0089679C /* PBXTargetDependency */,
 			);
 			name = remediTests;
 			productName = remediTests;
-			productReference = CEACB1702BC15FCD00BF83BA /* remediTests.xctest */;
+			productReference = CEBEA8B52BC22DEE0089679C /* remediTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEACB1792BC15FCD00BF83BA /* remediUITests */ = {
+		CEBEA8BE2BC22DEE0089679C /* remediUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEACB18A2BC15FCD00BF83BA /* Build configuration list for PBXNativeTarget "remediUITests" */;
+			buildConfigurationList = CEBEA8CF2BC22DEE0089679C /* Build configuration list for PBXNativeTarget "remediUITests" */;
 			buildPhases = (
-				CEACB1762BC15FCD00BF83BA /* Sources */,
-				CEACB1772BC15FCD00BF83BA /* Frameworks */,
-				CEACB1782BC15FCD00BF83BA /* Resources */,
+				CEBEA8BB2BC22DEE0089679C /* Sources */,
+				CEBEA8BC2BC22DEE0089679C /* Frameworks */,
+				CEBEA8BD2BC22DEE0089679C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEACB17C2BC15FCD00BF83BA /* PBXTargetDependency */,
+				CEBEA8C12BC22DEE0089679C /* PBXTargetDependency */,
 			);
 			name = remediUITests;
 			productName = remediUITests;
-			productReference = CEACB17A2BC15FCD00BF83BA /* remediUITests.xctest */;
+			productReference = CEBEA8BF2BC22DEE0089679C /* remediUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CEACB1582BC15FCB00BF83BA /* Project object */ = {
+		CEBEA89B2BC22DED0089679C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					CEACB15F2BC15FCB00BF83BA = {
+					CEBEA8A22BC22DED0089679C = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					CEACB16F2BC15FCD00BF83BA = {
+					CEBEA8B42BC22DEE0089679C = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = CEACB15F2BC15FCB00BF83BA;
+						TestTargetID = CEBEA8A22BC22DED0089679C;
 					};
-					CEACB1792BC15FCD00BF83BA = {
+					CEBEA8BE2BC22DEE0089679C = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = CEACB15F2BC15FCB00BF83BA;
+						TestTargetID = CEBEA8A22BC22DED0089679C;
 					};
 				};
 			};
-			buildConfigurationList = CEACB15B2BC15FCB00BF83BA /* Build configuration list for PBXProject "remedi" */;
+			buildConfigurationList = CEBEA89E2BC22DED0089679C /* Build configuration list for PBXProject "remedi" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +293,40 @@
 				en,
 				Base,
 			);
-			mainGroup = CEACB1572BC15FCB00BF83BA;
-			productRefGroup = CEACB1612BC15FCB00BF83BA /* Products */;
+			mainGroup = CEBEA89A2BC22DED0089679C;
+			packageReferences = (
+				CEBEA8ED2BC22FC20089679C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CEBEA8A42BC22DED0089679C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEACB15F2BC15FCB00BF83BA /* remedi */,
-				CEACB16F2BC15FCD00BF83BA /* remediTests */,
-				CEACB1792BC15FCD00BF83BA /* remediUITests */,
+				CEBEA8A22BC22DED0089679C /* remedi */,
+				CEBEA8B42BC22DEE0089679C /* remediTests */,
+				CEBEA8BE2BC22DEE0089679C /* remediUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CEACB15E2BC15FCB00BF83BA /* Resources */ = {
+		CEBEA8A12BC22DED0089679C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEACB16B2BC15FCD00BF83BA /* Preview Assets.xcassets in Resources */,
-				CEACB1682BC15FCD00BF83BA /* Assets.xcassets in Resources */,
+				CEBEA8B02BC22DEE0089679C /* Preview Assets.xcassets in Resources */,
+				CEBEA8AD2BC22DEE0089679C /* Assets.xcassets in Resources */,
+				CEBEA8D32BC22E5A0089679C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEACB16E2BC15FCD00BF83BA /* Resources */ = {
+		CEBEA8B32BC22DEE0089679C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEACB1782BC15FCD00BF83BA /* Resources */ = {
+		CEBEA8BD2BC22DEE0089679C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +336,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CEACB15C2BC15FCB00BF83BA /* Sources */ = {
+		CEBEA89F2BC22DED0089679C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEACB1662BC15FCB00BF83BA /* ContentView.swift in Sources */,
-				CEACB1642BC15FCB00BF83BA /* remediApp.swift in Sources */,
+				CEBEA8E02BC22F1B0089679C /* LoginVM.swift in Sources */,
+				CEBEA8EA2BC22F310089679C /* MainView.swift in Sources */,
+				CEBEA8A92BC22DED0089679C /* ContentView.swift in Sources */,
+				CEBEA8A72BC22DED0089679C /* remediApp.swift in Sources */,
+				CEBEA8E22BC22F200089679C /* RegisterVM.swift in Sources */,
+				CEBEA8E42BC22F240089679C /* MainVM.swift in Sources */,
+				CEBEA8DE2BC22F150089679C /* ContentViewModel.swift in Sources */,
+				CEBEA8EC2BC22F350089679C /* ResultView.swift in Sources */,
+				CEBEA8DA2BC22F090089679C /* AudioController.swift in Sources */,
+				CEBEA8D82BC22ED90089679C /* User.swift in Sources */,
+				CEBEA8E62BC22F280089679C /* LoginView.swift in Sources */,
+				CEBEA8E82BC22F2C0089679C /* ProfileView.swift in Sources */,
+				CEBEA8DC2BC22F0F0089679C /* CameraController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEACB16C2BC15FCD00BF83BA /* Sources */ = {
+		CEBEA8B12BC22DEE0089679C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEACB1752BC15FCD00BF83BA /* remediTests.swift in Sources */,
+				CEBEA8BA2BC22DEE0089679C /* remediTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEACB1762BC15FCD00BF83BA /* Sources */ = {
+		CEBEA8BB2BC22DEE0089679C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEACB1812BC15FCD00BF83BA /* remediUITestsLaunchTests.swift in Sources */,
-				CEACB17F2BC15FCD00BF83BA /* remediUITests.swift in Sources */,
+				CEBEA8C62BC22DEE0089679C /* remediUITestsLaunchTests.swift in Sources */,
+				CEBEA8C42BC22DEE0089679C /* remediUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEACB1722BC15FCD00BF83BA /* PBXTargetDependency */ = {
+		CEBEA8B72BC22DEE0089679C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEACB15F2BC15FCB00BF83BA /* remedi */;
-			targetProxy = CEACB1712BC15FCD00BF83BA /* PBXContainerItemProxy */;
+			target = CEBEA8A22BC22DED0089679C /* remedi */;
+			targetProxy = CEBEA8B62BC22DEE0089679C /* PBXContainerItemProxy */;
 		};
-		CEACB17C2BC15FCD00BF83BA /* PBXTargetDependency */ = {
+		CEBEA8C12BC22DEE0089679C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEACB15F2BC15FCB00BF83BA /* remedi */;
-			targetProxy = CEACB17B2BC15FCD00BF83BA /* PBXContainerItemProxy */;
+			target = CEBEA8A22BC22DED0089679C /* remedi */;
+			targetProxy = CEBEA8C02BC22DEE0089679C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		CEACB1822BC15FCD00BF83BA /* Debug */ = {
+		CEBEA8C72BC22DEE0089679C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +452,7 @@
 			};
 			name = Debug;
 		};
-		CEACB1832BC15FCD00BF83BA /* Release */ = {
+		CEBEA8C82BC22DEE0089679C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,7 +508,7 @@
 			};
 			name = Release;
 		};
-		CEACB1852BC15FCD00BF83BA /* Debug */ = {
+		CEBEA8CA2BC22DEE0089679C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -422,13 +516,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"remedi/Preview Content\"";
+				DEVELOPMENT_TEAM = F7TU337732;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access to the camera is needed to take a picture";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access to the microphone is needed to record audio";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to the camera in case you want to upload a picture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +541,7 @@
 			};
 			name = Debug;
 		};
-		CEACB1862BC15FCD00BF83BA /* Release */ = {
+		CEBEA8CB2BC22DEE0089679C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -450,13 +549,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"remedi/Preview Content\"";
+				DEVELOPMENT_TEAM = F7TU337732;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access to the camera is needed to take a picture";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access to the microphone is needed to record audio";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access to the camera in case you want to upload a picture";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,13 +574,14 @@
 			};
 			name = Release;
 		};
-		CEACB1882BC15FCD00BF83BA /* Debug */ = {
+		CEBEA8CD2BC22DEE0089679C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7TU337732;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
@@ -489,13 +594,14 @@
 			};
 			name = Debug;
 		};
-		CEACB1892BC15FCD00BF83BA /* Release */ = {
+		CEBEA8CE2BC22DEE0089679C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7TU337732;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
@@ -508,12 +614,13 @@
 			};
 			name = Release;
 		};
-		CEACB18B2BC15FCD00BF83BA /* Debug */ = {
+		CEBEA8D02BC22DEE0089679C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7TU337732;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Rushil.remediUITests;
@@ -525,12 +632,13 @@
 			};
 			name = Debug;
 		};
-		CEACB18C2BC15FCD00BF83BA /* Release */ = {
+		CEBEA8D12BC22DEE0089679C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7TU337732;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Rushil.remediUITests;
@@ -545,43 +653,72 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEACB15B2BC15FCB00BF83BA /* Build configuration list for PBXProject "remedi" */ = {
+		CEBEA89E2BC22DED0089679C /* Build configuration list for PBXProject "remedi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEACB1822BC15FCD00BF83BA /* Debug */,
-				CEACB1832BC15FCD00BF83BA /* Release */,
+				CEBEA8C72BC22DEE0089679C /* Debug */,
+				CEBEA8C82BC22DEE0089679C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEACB1842BC15FCD00BF83BA /* Build configuration list for PBXNativeTarget "remedi" */ = {
+		CEBEA8C92BC22DEE0089679C /* Build configuration list for PBXNativeTarget "remedi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEACB1852BC15FCD00BF83BA /* Debug */,
-				CEACB1862BC15FCD00BF83BA /* Release */,
+				CEBEA8CA2BC22DEE0089679C /* Debug */,
+				CEBEA8CB2BC22DEE0089679C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEACB1872BC15FCD00BF83BA /* Build configuration list for PBXNativeTarget "remediTests" */ = {
+		CEBEA8CC2BC22DEE0089679C /* Build configuration list for PBXNativeTarget "remediTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEACB1882BC15FCD00BF83BA /* Debug */,
-				CEACB1892BC15FCD00BF83BA /* Release */,
+				CEBEA8CD2BC22DEE0089679C /* Debug */,
+				CEBEA8CE2BC22DEE0089679C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEACB18A2BC15FCD00BF83BA /* Build configuration list for PBXNativeTarget "remediUITests" */ = {
+		CEBEA8CF2BC22DEE0089679C /* Build configuration list for PBXNativeTarget "remediUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEACB18B2BC15FCD00BF83BA /* Debug */,
-				CEACB18C2BC15FCD00BF83BA /* Release */,
+				CEBEA8D02BC22DEE0089679C /* Debug */,
+				CEBEA8D12BC22DEE0089679C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEBEA8ED2BC22FC20089679C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEBEA8EF2BC22FD30089679C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEBEA8ED2BC22FC20089679C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CEBEA8F12BC22FD80089679C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEBEA8ED2BC22FC20089679C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CEBEA8F32BC22FE00089679C /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEBEA8ED2BC22FC20089679C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = CEACB1582BC15FCB00BF83BA /* Project object */;
+	rootObject = CEBEA89B2BC22DED0089679C /* Project object */;
 }
