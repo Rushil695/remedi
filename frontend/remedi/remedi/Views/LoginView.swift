@@ -16,6 +16,8 @@ struct LoginView: View {
     var body: some View {
         NavigationStack {
             ZStack {
+                Color(.black)
+                    .ignoresSafeArea()
                 VStack {
                     Spacer()
                     Image(.logo)
@@ -98,7 +100,7 @@ extension LoginView {
             TextField("Email", text: $vm.email)
                 .autocapitalization(.none)
                 .padding(.leading)
-                .foregroundStyle(.black)
+                .foregroundStyle(.main)
                 .disableAutocorrection(true)
                 .overlay(Image(systemName: "xmark.circle.fill").foregroundStyle(.main).padding()
                     .offset(x:10)
@@ -116,7 +118,7 @@ extension LoginView {
         .padding()
         .background(
             RoundedRectangle(cornerRadius: 25)
-                .fill(.white)
+                .fill(.black)
                 .shadow(color: .main.opacity(0.9),radius: 5)
         )
     }
@@ -127,7 +129,7 @@ extension LoginView {
             SecureField("Password", text: $vm.password)
                 .padding(.leading)
                 .textFieldStyle(DefaultTextFieldStyle())
-                .foregroundStyle(.black)
+                .foregroundStyle(.main)
                 .disableAutocorrection(true)
                 .overlay(Image(systemName: "xmark.circle.fill").foregroundStyle(.main).padding()
                     .offset(x:10)
@@ -145,7 +147,7 @@ extension LoginView {
         .padding()
         .background(
             RoundedRectangle(cornerRadius: 25)
-                .fill(.white)
+                .fill(.black)
                 .shadow(color: .main.opacity(0.9),radius: 5)
         )
     }
@@ -156,7 +158,7 @@ extension LoginView {
                 .padding(.leading)
             
                 .textFieldStyle(DefaultTextFieldStyle())
-                .foregroundStyle(.black)
+                .foregroundStyle(.main)
                 .disableAutocorrection(true)
                 .overlay(Image(systemName: "xmark.circle.fill").foregroundStyle(.main).padding()
                     .offset(x:10)
@@ -174,7 +176,7 @@ extension LoginView {
         .padding()
         .background(
             RoundedRectangle(cornerRadius: 25)
-                .fill(.white)
+                .fill(.black)
                 .shadow(color: .main.opacity(0.9),radius: 5)
         )
     }
@@ -184,7 +186,7 @@ extension LoginView {
             TextField("Email", text: $regvm.email)
                 .autocapitalization(.none)
                 .padding(.leading)
-                .foregroundStyle(.black)
+                .foregroundStyle(.main)
                 .disableAutocorrection(true)
                 .overlay(Image(systemName: "xmark.circle.fill").foregroundStyle(.main).padding()
                     .offset(x:10)
@@ -202,7 +204,7 @@ extension LoginView {
         .padding()
         .background(
             RoundedRectangle(cornerRadius: 25)
-                .fill(.white)
+                .fill(.black)
                 .shadow(color: .main.opacity(0.9),radius: 5)
         )
     }
@@ -213,7 +215,7 @@ extension LoginView {
                 .padding(.leading)
             
                 .textFieldStyle(DefaultTextFieldStyle())
-                .foregroundStyle(.black)
+                .foregroundStyle(.main)
                 .disableAutocorrection(true)
                 .overlay(Image(systemName: "xmark.circle.fill").foregroundStyle(.main).padding()
                     .offset(x:10)
@@ -231,7 +233,7 @@ extension LoginView {
         .padding()
         .background(
             RoundedRectangle(cornerRadius: 25)
-                .fill(.white)
+                .fill(.black)
                 .shadow(color: .main.opacity(0.9),radius: 5)
         )
     }

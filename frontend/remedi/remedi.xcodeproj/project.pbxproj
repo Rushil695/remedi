@@ -26,9 +26,11 @@
 		CEBEA9032BC2338A0089679C /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8FD2BC2338A0089679C /* AudioController.swift */; };
 		CEBEA9042BC2338A0089679C /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8FE2BC2338A0089679C /* LoginVM.swift */; };
 		CEBEA90A2BC233930089679C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9052BC233920089679C /* LoginView.swift */; };
-		CEBEA90B2BC233930089679C /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9062BC233920089679C /* ResultView.swift */; };
+		CEBEA90B2BC233930089679C /* QView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9062BC233920089679C /* QView.swift */; };
 		CEBEA90C2BC233930089679C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9072BC233930089679C /* ProfileView.swift */; };
 		CEBEA90D2BC233930089679C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9082BC233930089679C /* MainView.swift */; };
+		CEBEA9102BC23F380089679C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA90F2BC23F380089679C /* MessageView.swift */; };
+		CEBEA9142BC245120089679C /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9132BC245120089679C /* FinalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,9 +70,11 @@
 		CEBEA8FD2BC2338A0089679C /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
 		CEBEA8FE2BC2338A0089679C /* LoginVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
 		CEBEA9052BC233920089679C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		CEBEA9062BC233920089679C /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		CEBEA9062BC233920089679C /* QView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QView.swift; sourceTree = "<group>"; };
 		CEBEA9072BC233930089679C /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		CEBEA9082BC233930089679C /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CEBEA90F2BC23F380089679C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		CEBEA9132BC245120089679C /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,9 +170,11 @@
 			children = (
 				CEBEA8A82BC22DED0089679C /* ContentView.swift */,
 				CEBEA9052BC233920089679C /* LoginView.swift */,
-				CEBEA9082BC233930089679C /* MainView.swift */,
 				CEBEA9072BC233930089679C /* ProfileView.swift */,
-				CEBEA9062BC233920089679C /* ResultView.swift */,
+				CEBEA9082BC233930089679C /* MainView.swift */,
+				CEBEA9062BC233920089679C /* QView.swift */,
+				CEBEA90F2BC23F380089679C /* MessageView.swift */,
+				CEBEA9132BC245120089679C /* FinalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,8 +186,8 @@
 				CEBEA8FA2BC2338A0089679C /* CameraController.swift */,
 				CEBEA8F92BC2338A0089679C /* ContentViewModel.swift */,
 				CEBEA8FE2BC2338A0089679C /* LoginVM.swift */,
-				CEBEA8FB2BC2338A0089679C /* MainVM.swift */,
 				CEBEA8FC2BC2338A0089679C /* RegisterVM.swift */,
+				CEBEA8FB2BC2338A0089679C /* MainVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -346,12 +352,14 @@
 				CEBEA9042BC2338A0089679C /* LoginVM.swift in Sources */,
 				CEBEA8A72BC22DED0089679C /* remediApp.swift in Sources */,
 				CEBEA8F82BC2337A0089679C /* User.swift in Sources */,
-				CEBEA90B2BC233930089679C /* ResultView.swift in Sources */,
+				CEBEA9142BC245120089679C /* FinalView.swift in Sources */,
+				CEBEA90B2BC233930089679C /* QView.swift in Sources */,
 				CEBEA90A2BC233930089679C /* LoginView.swift in Sources */,
 				CEBEA90C2BC233930089679C /* ProfileView.swift in Sources */,
 				CEBEA9002BC2338A0089679C /* CameraController.swift in Sources */,
 				CEBEA8FF2BC2338A0089679C /* ContentViewModel.swift in Sources */,
 				CEBEA9032BC2338A0089679C /* AudioController.swift in Sources */,
+				CEBEA9102BC23F380089679C /* MessageView.swift in Sources */,
 				CEBEA9022BC2338A0089679C /* RegisterVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

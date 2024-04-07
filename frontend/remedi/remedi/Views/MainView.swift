@@ -78,8 +78,9 @@ struct MainView: View {
                     CameraPicker(image: $mainvm.image)
                 }
                 .navigationDestination(isPresented: $mainvm.results) {
-                    ResultView()
+                    QView(mainVM: mainvm)
                         .navigationBarBackButtonHidden()
+                    
                 }
             }
         }
