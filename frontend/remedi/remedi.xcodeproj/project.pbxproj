@@ -14,21 +14,21 @@
 		CEBEA8BA2BC22DEE0089679C /* remediTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8B92BC22DEE0089679C /* remediTests.swift */; };
 		CEBEA8C42BC22DEE0089679C /* remediUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8C32BC22DEE0089679C /* remediUITests.swift */; };
 		CEBEA8C62BC22DEE0089679C /* remediUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8C52BC22DEE0089679C /* remediUITestsLaunchTests.swift */; };
-		CEBEA8D32BC22E5A0089679C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEBEA8D22BC22E5A0089679C /* GoogleService-Info.plist */; };
-		CEBEA8D82BC22ED90089679C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8D72BC22ED90089679C /* User.swift */; };
-		CEBEA8DA2BC22F090089679C /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8D92BC22F090089679C /* AudioController.swift */; };
-		CEBEA8DC2BC22F0F0089679C /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8DB2BC22F0F0089679C /* CameraController.swift */; };
-		CEBEA8DE2BC22F150089679C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8DD2BC22F150089679C /* ContentViewModel.swift */; };
-		CEBEA8E02BC22F1B0089679C /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8DF2BC22F1B0089679C /* LoginVM.swift */; };
-		CEBEA8E22BC22F200089679C /* RegisterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8E12BC22F200089679C /* RegisterVM.swift */; };
-		CEBEA8E42BC22F240089679C /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8E32BC22F240089679C /* MainVM.swift */; };
-		CEBEA8E62BC22F280089679C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8E52BC22F280089679C /* LoginView.swift */; };
-		CEBEA8E82BC22F2C0089679C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8E72BC22F2C0089679C /* ProfileView.swift */; };
-		CEBEA8EA2BC22F310089679C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8E92BC22F310089679C /* MainView.swift */; };
-		CEBEA8EC2BC22F350089679C /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8EB2BC22F350089679C /* ResultView.swift */; };
 		CEBEA8F02BC22FD30089679C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CEBEA8EF2BC22FD30089679C /* FirebaseAuth */; };
 		CEBEA8F22BC22FD80089679C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CEBEA8F12BC22FD80089679C /* FirebaseFirestore */; };
 		CEBEA8F42BC22FE00089679C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CEBEA8F32BC22FE00089679C /* FirebaseFirestoreSwift */; };
+		CEBEA8F62BC233690089679C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEBEA8F52BC233690089679C /* GoogleService-Info.plist */; };
+		CEBEA8F82BC2337A0089679C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8F72BC2337A0089679C /* User.swift */; };
+		CEBEA8FF2BC2338A0089679C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8F92BC2338A0089679C /* ContentViewModel.swift */; };
+		CEBEA9002BC2338A0089679C /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8FA2BC2338A0089679C /* CameraController.swift */; };
+		CEBEA9012BC2338A0089679C /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8FB2BC2338A0089679C /* MainVM.swift */; };
+		CEBEA9022BC2338A0089679C /* RegisterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8FC2BC2338A0089679C /* RegisterVM.swift */; };
+		CEBEA9032BC2338A0089679C /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8FD2BC2338A0089679C /* AudioController.swift */; };
+		CEBEA9042BC2338A0089679C /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA8FE2BC2338A0089679C /* LoginVM.swift */; };
+		CEBEA90A2BC233930089679C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9052BC233920089679C /* LoginView.swift */; };
+		CEBEA90B2BC233930089679C /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9062BC233920089679C /* ResultView.swift */; };
+		CEBEA90C2BC233930089679C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9072BC233930089679C /* ProfileView.swift */; };
+		CEBEA90D2BC233930089679C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9082BC233930089679C /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,18 +59,18 @@
 		CEBEA8BF2BC22DEE0089679C /* remediUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = remediUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBEA8C32BC22DEE0089679C /* remediUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remediUITests.swift; sourceTree = "<group>"; };
 		CEBEA8C52BC22DEE0089679C /* remediUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remediUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CEBEA8D22BC22E5A0089679C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../remedi1/remedi/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		CEBEA8D72BC22ED90089679C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../../remedi1/remedi/Models/User.swift; sourceTree = "<group>"; };
-		CEBEA8D92BC22F090089679C /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioController.swift; path = ../../../../../remedi1/remedi/ViewModels/AudioController.swift; sourceTree = "<group>"; };
-		CEBEA8DB2BC22F0F0089679C /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraController.swift; path = ../../../../../remedi1/remedi/ViewModels/CameraController.swift; sourceTree = "<group>"; };
-		CEBEA8DD2BC22F150089679C /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentViewModel.swift; path = ../../../../../remedi1/remedi/ViewModels/ContentViewModel.swift; sourceTree = "<group>"; };
-		CEBEA8DF2BC22F1B0089679C /* LoginVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginVM.swift; path = ../../../../../remedi1/remedi/ViewModels/LoginVM.swift; sourceTree = "<group>"; };
-		CEBEA8E12BC22F200089679C /* RegisterVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterVM.swift; path = ../../../../../remedi1/remedi/ViewModels/RegisterVM.swift; sourceTree = "<group>"; };
-		CEBEA8E32BC22F240089679C /* MainVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainVM.swift; path = ../../../../../remedi1/remedi/ViewModels/MainVM.swift; sourceTree = "<group>"; };
-		CEBEA8E52BC22F280089679C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../../../remedi1/remedi/Views/LoginView.swift; sourceTree = "<group>"; };
-		CEBEA8E72BC22F2C0089679C /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = ../../../../../remedi1/remedi/Views/ProfileView.swift; sourceTree = "<group>"; };
-		CEBEA8E92BC22F310089679C /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ../../../../../remedi1/remedi/Views/MainView.swift; sourceTree = "<group>"; };
-		CEBEA8EB2BC22F350089679C /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultView.swift; path = ../../../../../remedi1/remedi/Views/ResultView.swift; sourceTree = "<group>"; };
+		CEBEA8F52BC233690089679C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEBEA8F72BC2337A0089679C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CEBEA8F92BC2338A0089679C /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		CEBEA8FA2BC2338A0089679C /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		CEBEA8FB2BC2338A0089679C /* MainVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		CEBEA8FC2BC2338A0089679C /* RegisterVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVM.swift; sourceTree = "<group>"; };
+		CEBEA8FD2BC2338A0089679C /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		CEBEA8FE2BC2338A0089679C /* LoginVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		CEBEA9052BC233920089679C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CEBEA9062BC233920089679C /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		CEBEA9072BC233930089679C /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CEBEA9082BC233930089679C /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 		CEBEA8A52BC22DED0089679C /* remedi */ = {
 			isa = PBXGroup;
 			children = (
-				CEBEA8D22BC22E5A0089679C /* GoogleService-Info.plist */,
+				CEBEA8F52BC233690089679C /* GoogleService-Info.plist */,
 				CEBEA8A62BC22DED0089679C /* remediApp.swift */,
 				CEBEA8D62BC22ECD0089679C /* Models */,
 				CEBEA8D52BC22EBF0089679C /* ViewModels */,
@@ -165,10 +165,10 @@
 			isa = PBXGroup;
 			children = (
 				CEBEA8A82BC22DED0089679C /* ContentView.swift */,
-				CEBEA8E52BC22F280089679C /* LoginView.swift */,
-				CEBEA8E72BC22F2C0089679C /* ProfileView.swift */,
-				CEBEA8E92BC22F310089679C /* MainView.swift */,
-				CEBEA8EB2BC22F350089679C /* ResultView.swift */,
+				CEBEA9052BC233920089679C /* LoginView.swift */,
+				CEBEA9082BC233930089679C /* MainView.swift */,
+				CEBEA9072BC233930089679C /* ProfileView.swift */,
+				CEBEA9062BC233920089679C /* ResultView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,12 +176,12 @@
 		CEBEA8D52BC22EBF0089679C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				CEBEA8D92BC22F090089679C /* AudioController.swift */,
-				CEBEA8DB2BC22F0F0089679C /* CameraController.swift */,
-				CEBEA8DD2BC22F150089679C /* ContentViewModel.swift */,
-				CEBEA8DF2BC22F1B0089679C /* LoginVM.swift */,
-				CEBEA8E12BC22F200089679C /* RegisterVM.swift */,
-				CEBEA8E32BC22F240089679C /* MainVM.swift */,
+				CEBEA8FD2BC2338A0089679C /* AudioController.swift */,
+				CEBEA8FA2BC2338A0089679C /* CameraController.swift */,
+				CEBEA8F92BC2338A0089679C /* ContentViewModel.swift */,
+				CEBEA8FE2BC2338A0089679C /* LoginVM.swift */,
+				CEBEA8FB2BC2338A0089679C /* MainVM.swift */,
+				CEBEA8FC2BC2338A0089679C /* RegisterVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 		CEBEA8D62BC22ECD0089679C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CEBEA8D72BC22ED90089679C /* User.swift */,
+				CEBEA8F72BC2337A0089679C /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -315,7 +315,7 @@
 			files = (
 				CEBEA8B02BC22DEE0089679C /* Preview Assets.xcassets in Resources */,
 				CEBEA8AD2BC22DEE0089679C /* Assets.xcassets in Resources */,
-				CEBEA8D32BC22E5A0089679C /* GoogleService-Info.plist in Resources */,
+				CEBEA8F62BC233690089679C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,19 +340,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBEA8E02BC22F1B0089679C /* LoginVM.swift in Sources */,
-				CEBEA8EA2BC22F310089679C /* MainView.swift in Sources */,
+				CEBEA90D2BC233930089679C /* MainView.swift in Sources */,
+				CEBEA9012BC2338A0089679C /* MainVM.swift in Sources */,
 				CEBEA8A92BC22DED0089679C /* ContentView.swift in Sources */,
+				CEBEA9042BC2338A0089679C /* LoginVM.swift in Sources */,
 				CEBEA8A72BC22DED0089679C /* remediApp.swift in Sources */,
-				CEBEA8E22BC22F200089679C /* RegisterVM.swift in Sources */,
-				CEBEA8E42BC22F240089679C /* MainVM.swift in Sources */,
-				CEBEA8DE2BC22F150089679C /* ContentViewModel.swift in Sources */,
-				CEBEA8EC2BC22F350089679C /* ResultView.swift in Sources */,
-				CEBEA8DA2BC22F090089679C /* AudioController.swift in Sources */,
-				CEBEA8D82BC22ED90089679C /* User.swift in Sources */,
-				CEBEA8E62BC22F280089679C /* LoginView.swift in Sources */,
-				CEBEA8E82BC22F2C0089679C /* ProfileView.swift in Sources */,
-				CEBEA8DC2BC22F0F0089679C /* CameraController.swift in Sources */,
+				CEBEA8F82BC2337A0089679C /* User.swift in Sources */,
+				CEBEA90B2BC233930089679C /* ResultView.swift in Sources */,
+				CEBEA90A2BC233930089679C /* LoginView.swift in Sources */,
+				CEBEA90C2BC233930089679C /* ProfileView.swift in Sources */,
+				CEBEA9002BC2338A0089679C /* CameraController.swift in Sources */,
+				CEBEA8FF2BC2338A0089679C /* ContentViewModel.swift in Sources */,
+				CEBEA9032BC2338A0089679C /* AudioController.swift in Sources */,
+				CEBEA9022BC2338A0089679C /* RegisterVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
