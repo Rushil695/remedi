@@ -10,6 +10,7 @@ import SwiftUI
 struct FinalView: View {
     @Binding var q: Bool
 //    @ObservedObject var mainvm : MainVM
+    let bookingURL = URL(string: "https://booking.appointy.com/rushil695")!
         
     var body: some View {
         ZStack {
@@ -20,10 +21,14 @@ struct FinalView: View {
                 HStack {
                     Spacer()
                     Button {
-                        
+//                        mainvm.$results = false
+                        q = false
                     } label: {
-                        Image(systemName: "xmark.fill")
+                        Image(systemName: "xmark.circle.fill")
                             .foregroundStyle(.main)
+                            .padding(.trailing, 32.0)
+                            .padding(.top, -9.0)
+                            .padding(.bottom, 6.0)
                     }
                 }
                 VStack{
@@ -57,7 +62,7 @@ struct FinalView: View {
                     .padding()
                 Spacer()
                 Button {
-                    
+                    UIApplication.shared.open(bookingURL)
                 } label: {
                     Text("Schedule an appointment with our volunteer doctor")
                         .padding()

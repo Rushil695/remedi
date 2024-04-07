@@ -7,10 +7,42 @@
 
 import SwiftUI
 
-struct ProfileView: View {
+struct ProfileView: View {  
+    @ObservedObject var vm = ContentViewModel()
     @Binding var showing: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color(.black)
+                .ignoresSafeArea()
+            VStack {
+                HStack {
+                    Button {
+                        showing = false
+                    } label: {
+                        Text("Dismiss")
+                            .foregroundStyle(.blu)
+                    }
+                    Spacer()
+                    Button {
+                        vm.logOut()
+                    } label: {
+                        Text("Log out")
+                            .foregroundStyle(.blu)
+                    }
+                }
+                .padding()
+                Spacer()
+                Image(systemName: "person.crop.circle.fill")
+                    .imageScale(.large)
+                    
+                    .foregroundStyle(.main)
+                Text("This is your profile")
+                    .font(.title3)
+                    .foregroundStyle(.white)
+                Spacer()
+            }
+        }
     }
 }
 

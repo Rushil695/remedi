@@ -31,6 +31,7 @@
 		CEBEA90D2BC233930089679C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9082BC233930089679C /* MainView.swift */; };
 		CEBEA9102BC23F380089679C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA90F2BC23F380089679C /* MessageView.swift */; };
 		CEBEA9142BC245120089679C /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9132BC245120089679C /* FinalView.swift */; };
+		CEBEA9162BC2B0210089679C /* AudioRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBEA9152BC2B0210089679C /* AudioRecorderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		CEBEA9082BC233930089679C /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CEBEA90F2BC23F380089679C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		CEBEA9132BC245120089679C /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
+		CEBEA9152BC2B0210089679C /* AudioRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				CEBEA9062BC233920089679C /* QView.swift */,
 				CEBEA90F2BC23F380089679C /* MessageView.swift */,
 				CEBEA9132BC245120089679C /* FinalView.swift */,
+				CEBEA9152BC2B0210089679C /* AudioRecorderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				CEBEA8A92BC22DED0089679C /* ContentView.swift in Sources */,
 				CEBEA9042BC2338A0089679C /* LoginVM.swift in Sources */,
 				CEBEA8A72BC22DED0089679C /* remediApp.swift in Sources */,
+				CEBEA9162BC2B0210089679C /* AudioRecorderView.swift in Sources */,
 				CEBEA8F82BC2337A0089679C /* User.swift in Sources */,
 				CEBEA9142BC245120089679C /* FinalView.swift in Sources */,
 				CEBEA90B2BC233930089679C /* QView.swift in Sources */,

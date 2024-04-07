@@ -12,6 +12,9 @@ struct MainView: View {
     @State var profileView = false
     @StateObject var mainvm = MainVM()
     @State private var showingCamera = false
+    @StateObject private var audioRecorderManager = AudioRecorderManager()
+
+
     
     var body: some View {
         NavigationStack {
@@ -31,34 +34,70 @@ struct MainView: View {
                         })
                     }
                     .padding()
-                    Text("Hello, how are you doing today?")
-                        .foregroundStyle(LinearGradient(colors: [.blu,.main], startPoint: .leading, endPoint: .trailing))
-                        .font(.title)
-                    Spacer()
                     Image(.logo)
                         .resizable()
-                        .frame(width: 390, height: 260)
-                    Text("Upload a picture, audio, or type in your issue")
+                        .frame(width: 390, height: 230)
+                    Text("How may we help you today?")
+                        .lineLimit(1)
                         .foregroundStyle(LinearGradient(colors: [.blu,.main], startPoint: .leading, endPoint: .trailing))
+                        .font(.custom("", size: 26))
+                        .padding(.horizontal, 25.0)
+                        .offset(y: 50)
+                    Spacer()
+                    
+                    Text("Upload a picture, audio, or type in your issue")
+                        .foregroundStyle(LinearGradient(colors: [.blu,.main], startPoint: .leading, endPoint: .trailing).opacity(0.7))
                         .foregroundStyle(.blu)
-                        .font(.title2)
-                        .padding(.bottom,38.0)
+                        .font(.callout)
+                        .padding(.top, 65.0)
                         .padding(.horizontal, 25.0)
                     HStack {
                         Button {
-                            
+                            if audioRecorderManager.isRecording {
+                                        audioRecorderManager.stopRecording()
+                            } else {
+                                audioRecorderManager.startRecording()
+                            }
+                            main 
                         } label: {
                             RoundedRectangle(cornerRadius: 20)
-                                .foregroundStyle(.white)
+                                .foregroundStyle(.black)
                                 .shadow(color: .main.opacity(0.9),radius: 5)
+                                .overlay {
+                                    if mainvm.audio == nil {
+                                        Image(systemName: "mic.fill")
+                                            .foregroundStyle(audioRecorderManager.isRecording ? .red : .main)
+                                            .imageScale(.large)
+                                    }
+                                    else {
+                                        Image(systemName: "checkmark.circle.fill")
+                                            .foregroundStyle(.main)
+                                            .imageScale(.large)
+                                    }
+                                }
                         }
                         
                         Button {
+                            let url = URL(string: mainvm.s3url.absoluteString + UUID().uuidString)!
+                            mainvm.uploadImageToS3(url: url, image: mainvm.image ?? .logo)
                             self.showingCamera = true
                         } label: {
                             RoundedRectangle(cornerRadius: 20)
-                                .foregroundStyle(.white)
+                                .foregroundStyle(.black)
                                 .shadow(color: .main.opacity(0.9),radius: 5)
+                                .overlay {
+                                    if mainvm.image == nil {
+                                        Image(systemName: "camera.fill")
+                                            .foregroundStyle(.main)
+                                            .imageScale(.large)
+                                    }
+                                    else {
+                                        Image(systemName: "checkmark.circle.fill")
+                                            .foregroundStyle(.main)
+                                            .imageScale(.large)
+                                    }
+                                        
+                                }
                         }
                         
                         
@@ -102,18 +141,25 @@ extension MainView {
                 .foregroundStyle(.blu)
                 
             
-            if mainvm.textPrompt.isEmpty{
+            if mainvm.textPrompt.isEmpty {
                 Image(systemName: "paperplane")
                     .foregroundStyle(.gray)
             }
             else {
                 Button {
-                    mainvm.requestPresignedURL(fileName: UUID().uuidString, fileType: "image/png") { url in
-                        mainvm.url  = url
+                    Task {
+                        do {
+                            let ex = try await mainvm.sendDataToServer(imageLink: "", textData: mainvm.textPrompt)
+                            DispatchQueue.main.async {
+                                mainvm.response.append(ex)
+                                mainvm.results.toggle()
+                            }
+                        } catch {
+                            print("Error sending data to server: \(error)")
+                        }
                     }
-                    guard let burl = mainvm.url, let bimage = mainvm.image else { return }
-                    mainvm.uploadImageToS3(url: burl, image: bimage)
-                } label: {
+                }
+                label: {
                     Image(systemName: "paperplane.fill")
                         .foregroundStyle(.blu)
                 }
